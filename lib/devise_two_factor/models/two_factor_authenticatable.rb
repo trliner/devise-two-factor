@@ -50,6 +50,7 @@ module Devise
 
       def clean_up_passwords
         self.otp_attempt = nil
+        super
       end
 
     protected
